@@ -40,8 +40,14 @@ body{
 .mobile{
     padding:5%;
     color:white;
+    /* background-color: red; */
+    width: 100%;
 }
 .leftChat{
     background: var(--color-purple);
     color: Purple 600;
+}
+.rightChat{
+    background: var(--color-purple);
+    color: Gray 500 ;
 }
