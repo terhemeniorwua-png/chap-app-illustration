@@ -7,7 +7,6 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --spacing: 0.25rem;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -163,12 +162,6 @@
   }
 }
 @layer utilities {
-  .static {
-    position: static;
-  }
-  .start {
-    inset-inline-start: var(--spacing);
-  }
   .contents {
     display: contents;
   }
@@ -192,13 +185,25 @@
 :root {
   ---font-rubik: 'Rubik', sans-serif;
   --color-white: hsl(0, 100%, 100%);
-  ---color-gray: hsl(270, 20%, 96%);
-  ---color-purple: hsl(271, 36%, 24%)
-    /*  (radio button outline) */
-    ---color-pink: hsl(289, 100%, 72%);
+  --color-gray: hsl(270, 20%, 96%);
+  --color-purple: hsl(271, 36%, 24%);
+  --color-pink: hsl(289, 100%, 72%);
+}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 body {
   font-family: font-rubik;
+  background-color: var(--color-gray);
+}
+.background {
+  background: linear-gradient(to top, hsl(264, 100%, 61%), hsl(288, 100%, 63%));
+  height: 31em;
+  width: 70%;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
 }
 @property --tw-outline-style {
   syntax: "*";

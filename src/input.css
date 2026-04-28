@@ -9,12 +9,28 @@
     ---font-rubik: 'Rubik', sans-serif;
     --color-white:hsl(0, 100%, 100%);
     /* (app background) */
-    ---color-gray: hsl(270, 20%, 96%); 
+    --color-gray: hsl(270, 20%, 96%); 
     /*  (submit button background) */
-    ---color-purple: hsl(271, 36%, 24%)
+    --color-purple: hsl(271, 36%, 24%);
     /*  (radio button outline) */
-    ---color-pink: hsl(289, 100%, 72%)
+    --color-pink: hsl(289, 100%, 72%);
 }
+ *{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+ }
+
 body{
     font-family: font-rubik;
+    background-color: var(--color-gray);
+}
+ /* Mobile background */
+.background{
+    background: linear-gradient(to top, hsl(264, 100%, 61%),
+     hsl(288, 100%, 63%));
+     height: 31em;
+     width: 70%;
+     border-bottom-left-radius: 45%;
+     border-bottom-right-radius: 45%;
 }
