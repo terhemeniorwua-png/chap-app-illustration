@@ -27,10 +27,21 @@ body{
 }
  /* Mobile background */
 .background{
-    background: linear-gradient(to top, hsl(264, 100%, 61%),
-     hsl(288, 100%, 63%));
      height: 31em;
      width: 70%;
      border-bottom-left-radius: 45%;
      border-bottom-right-radius: 45%;
+}
+/* reusable gradient for all the backgrounds */
+.gradient{
+     background: linear-gradient(to top, hsl(264, 100%, 61%),
+     hsl(288, 100%, 63%));
+}
+.mobile{
+    padding:5%;
+    color:white;
+}
+.leftChat{
+    background: var(--color-purple);
+    color: Purple 600;
 }
