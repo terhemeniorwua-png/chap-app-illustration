@@ -13,16 +13,17 @@
   <main>
    
       <!-- gradient background -->
+    <div class="flex">
       <div class="background gradient"></div>
       <!-- mobile -->
-      <section class="mobile rounded-3xl">
+      <section class="mobile rounded-3xl z-10 relative top-20">
         <!-- chat container -->
-        <div class="border border-gray-300 bg-gray-100 rounded-3xl p-5">
+        <div class="border border-gray-300 bg-gray-100 rounded-3xl p-3 pb-5">
           <!-- chat header -->
-          <div class="gradient rounded-t-3xl mask flex justify-around items-center h-24">
+          <div class="gradient rounded-t-3xl mask flex justify-around items-center h-16">
             <div class="flex items-center gap-2">
               <i class="fa-solid fa-chevron-left text-lg"></i>
-              <img src="images/avatar.jpg" alt="" class="size-10 rounded-full">
+              <img src="images/avatar.jpg" alt="" class="size-8 rounded-full">
               <div>
                 <h2 class="text-sm font-black">Samuel Green</h2>
                 <h5 class="text-(--color-pink) text-[10px]">Available to Work</h5>
@@ -32,7 +33,7 @@
           </div>
             
             <!-- chat messages -->
-          <div class="space-y-5 pt-2">
+          <div class=" pt-2">
             <div class="w-[60%]">
                 <div class="leftChat">
                   <p class="text-purple-600">That sounds great. I'd be happy with that.</p>
@@ -42,7 +43,7 @@
                </div>
             </div>
             <!-- dog images -->
-            <div class="flex justify-end items-center gap-3">
+            <div class="flex justify-end items-center gap-3 pt-2 pb-2">
               <img src="images/dog-image-1.jpg" alt="" class="size-10 rounded-lg">
               <img src="images/dog-image-2.jpg" alt="" class="size-10 rounded-lg">
               <img src="images/dog-image-3.jpg" alt="" class="size-10 rounded-lg">
@@ -52,21 +53,21 @@
                   <p class="text-gray-500
                   "> Here are a few pictures. She's a happy girl!</p>
                 </div>
-                 <div class="rightChat">
+                 <div class="rightChat pt-2 pb-2">
                   <p class="text-gray-500
                   ">Can you make it?</p>
                </div>
             </div>
-            <div class="leftChat w-[60%]">
+            <div class="leftChat w-[60%] pb-5">
               <p class="text-purple-600">She looks so happy! The time we disussed works. How long shall I take her out for?</p>
             </div>
             <!-- pricing options -->
-            <div class="gradient flex text-[12px] justify-around rounded-t-lg rounded-br-lg h-10 items-center px-5 w-[90%]">
+            <div class="gradient flex text-[12px] justify-around rounded-t-2xl rounded-br-2xl h-10 items-center px-5 w-[90%] space-y-2">
                <h4> <i class="fa-regular fa-circle"></i> </h4>
                <h2>30 minute walk</h2>
                <h2>$29</h2>
             </div>
-               <div class="gradient text-[12px] flex justify-around rounded-t-lg rounded-br-lg h-10 items-center px-5 w-[90%]">
+               <div class="gradient text-[12px] flex justify-around rounded-t-2xl rounded-br-2xl h-10 items-center px-5 w-[90%] mt-2">
                <h4> <i class="fa-regular fa-circle"></i> </h4>
                <h2>1 hour walk</h2>
                <h2>$49</h2>
@@ -81,10 +82,11 @@
             </div>
 
           </div>
+        </div>
   </section>
-  <section class="text-center pt-5 px-10">
-    <h1 class="text-3xl font-bold text-[#000000d0]">Simple booking</h1>
-    <p class="pt-5">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed, you can rate your walker and book again all through the chat.</p>
+  <section class="text-center pt-28 px-10 leading-10">
+    <h1 class="text-4xl font-bold text-[#000000ac]">Simple booking</h1>
+    <p class="pt-2 text-gray-500 text-lg">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed, you can rate your walker and book again all through the chat.</p>
   </section>
   </main>
 

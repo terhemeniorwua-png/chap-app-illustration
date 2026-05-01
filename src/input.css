@@ -29,6 +29,7 @@ body{
 .background{
      height: 31em;
      width: 70%;
+     position: absolute;
      border-bottom-left-radius: 45%;
      border-bottom-right-radius: 45%;
 }
@@ -39,7 +40,7 @@ body{
      color: white;
 }
 .mobile{
-    /* padding:5%; */
+    /* padding-bottom:5%; */
     margin: auto;
     /* background-color: red; */
     width: 60%;
@@ -77,6 +78,9 @@ a:hover{
 a:visited{
     color: rgba(255, 0, 0, 0.511);
 }
-
+.mask{
+    mask-image: radial-gradient(circle at top center, transparent 18px, black 15px);
+    -webkit-mask-image: radial-gradient(circle at top center, transparent 18px, black 15px);
+}
 
 
