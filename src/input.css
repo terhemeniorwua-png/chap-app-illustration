@@ -26,10 +26,27 @@ body{
     background-color: var(--color-gray);
 }
  /* Mobile background */
+ @media screen and (max-width:440px){
+    .background{
+        position: absolute;
+    }
+    .mobile{
+        width: 60%;
+    }
+    .leftChat,.rightChat{
+        width: 60%;
+    }
+ }
+  @media screen and (min-width:441px){
+ 
+    .rightChat{
+        width: 60%;
+    }
+ }
 .background{
      height: 31em;
      width: 70%;
-     position: absolute;
+     
      border-bottom-left-radius: 45%;
      border-bottom-right-radius: 45%;
 }
@@ -43,13 +60,12 @@ body{
     /* padding-bottom:5%; */
     margin: auto;
     /* background-color: red; */
-    width: 60%;
+    
     box-shadow: 10px 0px 70px rgb(192, 191, 191);
 }
 .leftChat{
     background: rgb(238, 237, 237);
     color: Purple 600;
-    width: 60%;
     border-radius:10%;
     margin-left: 10%;
     line-height: 1.2em;
@@ -59,7 +75,6 @@ body{
 .rightChat{
     background: var(--color-white);
     color: rgba(128, 128, 128, 0.15);
-    width: 60%;
     line-height: 1.2em;
     justify-content: end;
     border-radius:10%;

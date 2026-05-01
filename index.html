@@ -13,10 +13,11 @@
   <main>
    
       <!-- gradient background -->
+   <div class="grid grid-cols-2 gap-5">   
     <div class="flex">
       <div class="background gradient"></div>
       <!-- mobile -->
-      <section class="mobile rounded-3xl z-10 relative top-20">
+      <section class="mobile rounded-3xl z-10 relative lg:right-36 lg:top-5 max-sm:top-20">
         <!-- chat container -->
         <div class="border border-gray-300 bg-gray-100 rounded-3xl p-3 pb-5">
           <!-- chat header -->
@@ -36,10 +37,10 @@
           <div class=" pt-2">
             <div class="w-[60%]">
                 <div class="leftChat">
-                  <p class="text-purple-600">That sounds great. I'd be happy with that.</p>
+                  <p class="text-purple-600 p-1">That sounds great. I'd be happy with that.</p>
                 </div>
-                <div class="leftChat pt-2">
-                  <p class="text-purple-600">Could you send over some pictures of your doug, please?</p>
+                <div class="leftChat pt-2 mt-2">
+                  <p class="text-purple-600 p-1">Could you send over some pictures of your doug, please?</p>
                </div>
             </div>
             <!-- dog images -->
@@ -50,16 +51,16 @@
             </div>
             <div class="flex flex-col items-end">
                 <div class="rightChat ">
-                  <p class="text-gray-500
+                  <p class="text-gray-500 p-2
                   "> Here are a few pictures. She's a happy girl!</p>
                 </div>
-                 <div class="rightChat pt-2 pb-2">
-                  <p class="text-gray-500
+                 <div class="rightChat pt-2 pb-2 mt-2">
+                  <p class="text-gray-500 p-2
                   ">Can you make it?</p>
                </div>
             </div>
             <div class="leftChat w-[60%] pb-5">
-              <p class="text-purple-600">She looks so happy! The time we disussed works. How long shall I take her out for?</p>
+              <p class="text-purple-600 p-2">She looks so happy! The time we disussed works. How long shall I take her out for?</p>
             </div>
             <!-- pricing options -->
             <div class="gradient flex text-[12px] justify-around rounded-t-2xl rounded-br-2xl h-10 items-center px-5 w-[90%] space-y-2">
@@ -84,14 +85,15 @@
           </div>
         </div>
   </section>
-  <section class="text-center pt-28 px-10 leading-10">
+  <section class="text-center lg:text-left lg:pr-[30%] pt-28 px-10 leading-10">
     <h1 class="text-4xl font-bold text-[#000000ac]">Simple booking</h1>
-    <p class="pt-2 text-gray-500 text-lg">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed, you can rate your walker and book again all through the chat.</p>
+    <p class="pt-2 text-gray-500 text-lg lg:text-[15px]">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed, you can rate your walker and book again all through the chat.</p>
   </section>
+  </div> 
   </main>
 
   
-  <footer class="px-10 pt-5">
+  <footer class="px-10 pt-5 lg:text-end lg:relative lg:bottom-8">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="https://web.facebook.com/philip.iorwua.9">Dev Philip</a>.
   </footer>
