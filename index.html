@@ -11,13 +11,15 @@
 </head>
 <body>
   <main>
-    <section>
+   
       <!-- graadient background -->
       <div class="background gradient"></div>
       <!-- mobile -->
-      <div class="mobile rounded-3xl">
-        <div class="border border-(--color-purple) bg-(--color-gray) rounded-3xl space-y-5">
-          <div class="gradient rounded-t-3xl flex justify-around items-center h-32">
+      <section class="mobile rounded-3xl">
+        <!-- chat container -->
+        <div class="border border-gray-300 bg-gray-100 rounded-3xl p-10">
+          <!-- chat header -->
+          <div class="gradient rounded-t-3xl mask flex justify-around items-center h-32">
             <div class="flex items-center gap-2">
               <i class="fa-solid fa-chevron-left text-2xl"></i>
               <img src="images/avatar.jpg" alt="" class="size-10 rounded-full">
@@ -27,46 +29,59 @@
               </div>
               </div>
               <h2><i class="fa-solid fa-ellipsis-vertical text-2xl"></i>  </h2>
-            </div>
-            <div class="pt-3 w-[60%]">
+          </div>
+            
+            <!-- chat messages -->
+          <div class="space-y-10">
+            <div class="w-[60%]">
                 <div class="leftChat">
-                  <p>That sounds great. I'd be happy with that.</p>
+                  <p class="text-purple-600">That sounds great. I'd be happy with that.</p>
                 </div>
                 <div class="leftChat">
-                  <p>Could you send over some pictures of your doug, please?</p>
+                  <p class="text-purple-600">Could you send over some pictures of your doug, please?</p>
                </div>
             </div>
+            <!-- dog images -->
             <div class="flex justify-end items-center gap-3">
-              <img src="images/dog-image-1.jpg" alt="" class="size-10">
-              <img src="images/dog-image-2.jpg" alt="" class="size-10">
+              <img src="images/dog-image-1.jpg" alt="" class="size-10 rounded-lg">
+              <img src="images/dog-image-2.jpg" alt="" class="size-10 rounded-lg">
               <img src="images/dog-image-3.jpg" alt="" class="size-10 rounded-lg">
             </div>
-            <div class="flex flex-col justify-end">
-                <div class="rightChat">
-                  <p>Here are a few pictures. She's a happy girl!</p>
+            <div class="flex flex-col items-end">
+                <div class="rightChat ">
+                  <p class="text-gray-500
+                  "> Here are a few pictures. She's a happy girl!</p>
                 </div>
                  <div class="rightChat">
-                  <p>Can you make it?</p>
+                  <p class="text-gray-500
+                  ">Can you make it?</p>
                </div>
             </div>
             <div class="leftChat w-[60%]">
-              <p>She looks so happy! The time we disussed works. How long shall I take her out for?</p>
+              <p class="text-purple-600">She looks so happy! The time we disussed works. How long shall I take her out for?</p>
             </div>
-            <div class="gradient flex justify-around rounded-t-lg rounded-br-lg h-10 items-center px-5 w-[60%]">
+            <!-- pricing options -->
+            <div class="gradient flex justify-around rounded-t-lg rounded-br-lg h-10 items-center px-5 w-[80%]">
                <h4> <i class="fa-regular fa-circle"></i> </h4>
                <h2>30 minute walk</h2>
                <h2>$29</h2>
             </div>
-               <div class="gradient flex justify-around rounded-t-lg rounded-br-lg h-10 items-center px-5 w-[60%]">
+               <div class="gradient mt-5 flex justify-around rounded-t-lg rounded-br-lg h-10 items-center px-5 w-[80%]">
                <h4> <i class="fa-regular fa-circle"></i> </h4>
                <h2>1 hour walk</h2>
                <h2>$49</h2>
+              </div>
+            </div>
+            <!-- text input -->
+            <div class="h-[5em] w-[80%] m-auto mt-5">
+              <input type="text" placeholder="Type a message..." class="outline-0 border-0 w-full">
             </div>
 
-
           </div>
-      </div>
-      
+  </section>
+  <section class="text-center">
+    <h1>Simple booking</h1>
+    <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed, you can rate your walker and book again all through the chat.</p>
   </section>
   </main>
 
