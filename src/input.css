@@ -39,25 +39,39 @@ body{
      color: white;
 }
 .mobile{
-    padding:5%;
+    /* padding:5%; */
     margin: auto;
     /* background-color: red; */
-    width: 90%;
-    box-shadow: 5px 0px 30px gray;
+    width: 60%;
+    box-shadow: 10px 0px 70px gray;
 }
 .leftChat{
     background: rgb(238, 237, 237);
     color: Purple 600;
-    width: 70%;
+    width: 80%;
     border-radius:10%;
-    margin-left: 5%;
+    margin-left: 10%;
+    line-height: 1.2em;
+    font-size: clamp(0.5em, 3vw, 3vw);
     /* margin-top: 5%; */
 }
 .rightChat{
     background: var(--color-white);
     color: rgba(128, 128, 128, 0.15);
-    width: 60%;
+    width: 80%;
+    line-height: 1.2em;
     justify-content: end;
     border-radius:10%;
-    margin: 5%;
+    font-size: clamp(0.5em, 3vw, 3vw);
+
+    /* margin-: 5%; */
 }
+.mask{
+    /* mask-image: radial-gradient(ellipse at top center, transparent 40px, black 10px); */
+    /* -webkit-mask-image: radial-gradient(ellipse at top center, transprent 70px, black 10px); */
+ 
+ 
+}
+
+
+
