@@ -43,34 +43,39 @@ body{
     margin: auto;
     /* background-color: red; */
     width: 60%;
-    box-shadow: 10px 0px 70px gray;
+    box-shadow: 10px 0px 70px rgb(192, 191, 191);
 }
 .leftChat{
     background: rgb(238, 237, 237);
     color: Purple 600;
-    width: 80%;
+    width: 60%;
     border-radius:10%;
     margin-left: 10%;
     line-height: 1.2em;
-    font-size: clamp(0.5em, 3vw, 3vw);
+    font-size: clamp(0.5em, 3vw, 1vw);
     /* margin-top: 5%; */
 }
 .rightChat{
     background: var(--color-white);
     color: rgba(128, 128, 128, 0.15);
-    width: 80%;
+    width: 60%;
     line-height: 1.2em;
     justify-content: end;
     border-radius:10%;
-    font-size: clamp(0.5em, 3vw, 3vw);
+    font-size: clamp(0.5em, 3vw, 1vw);
 
     /* margin-: 5%; */
 }
-.mask{
-    /* mask-image: radial-gradient(ellipse at top center, transparent 40px, black 10px); */
-    /* -webkit-mask-image: radial-gradient(ellipse at top center, transprent 70px, black 10px); */
- 
- 
+a{
+    color: blue;
+    text-decoration: underline;
+}
+a:hover{
+    transform: scale(1.2em);
+    transition-duration: 0.2s;
+}
+a:visited{
+    color: rgba(255, 0, 0, 0.511);
 }
 
 
